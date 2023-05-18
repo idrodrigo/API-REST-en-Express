@@ -1,0 +1,81 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "petStoreApi",
+    "dateExported": "2023-05-18T16:44:19.944Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cd0c9069-e74e-485a-b4c2-535c8f0767be",
+            "colId": "28c6d684-ac96-473a-a950-fc28a0479340",
+            "containerId": "",
+            "name": "getListPets",
+            "url": "http://localhost:3306/pets",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-18T16:37:36.935Z",
+            "modified": "2023-05-18T16:38:46.661Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4c661073-9646-4b51-ac77-4db3b7066fb5",
+            "colId": "28c6d684-ac96-473a-a950-fc28a0479340",
+            "containerId": "",
+            "name": "createPet",
+            "url": "http://localhost:3306/pets",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-05-18T16:39:19.328Z",
+            "modified": "2023-05-18T16:40:31.460Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Cat\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "995fbc10-1b49-405c-b6a7-f6bbb52ca31c",
+            "colId": "28c6d684-ac96-473a-a950-fc28a0479340",
+            "containerId": "",
+            "name": "getPetById",
+            "url": "http://localhost:3306/pets/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-18T16:40:53.008Z",
+            "modified": "2023-05-18T16:41:03.846Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "20e0b1e4-9c33-4829-89f1-04bda4148634",
+            "colId": "28c6d684-ac96-473a-a950-fc28a0479340",
+            "containerId": "",
+            "name": "getPetsLimit",
+            "url": "http://localhost:3306/pets?limit=2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-18T16:41:31.289Z",
+            "modified": "2023-05-18T16:41:45.958Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:3306/pets"
+        }
+    }
+}

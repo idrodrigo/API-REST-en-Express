@@ -1,0 +1,23 @@
+{
+    "name": "API Documentation",
+    "version": "1.0.0",
+    "description": "Documentation for the API endpoints",
+    "title": "API Documentation",
+    "url": "http://localhost:3306",
+    "header": {
+      "title": "Petstore API",
+      "content": "<p>Welcome to the Petstore API documentation.</p>"
+    },
+    "footer": {
+      "title": "Footer Title",
+      "content": "<p>© 2023 Petstore.</p>"
+    },
+    "sampleUrl": false,
+    "apidoc": {
+      "baseurl": "/",
+      "examples": {
+        "include": ["./routes/petRoutes.js"]
+      }
+    }
+  }
+  
